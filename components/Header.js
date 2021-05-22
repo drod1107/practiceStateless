@@ -1,4 +1,6 @@
-export default () => `
+import html from "html-literal";
+
+export default (st) => `
 <header>
-<h1>Example SPA</h1>
+<h1>${st.header}</h1>
 </header>`
